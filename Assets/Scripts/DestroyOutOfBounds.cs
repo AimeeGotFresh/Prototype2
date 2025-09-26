@@ -14,7 +14,7 @@ public class DestroyOutOfBounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // If an object goes past the palyers view in the game, remove that object
+        // If an object goes past the palyers view in dthe game, remove that object
         if (transform.position.z > topBound)
         {
             Destroy(gameObject);
